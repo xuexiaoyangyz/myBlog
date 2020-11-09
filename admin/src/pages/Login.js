@@ -50,7 +50,7 @@ function Login(props){
                     <Input
                         id="userName"
                         size="large"
-                        placeholder="请输入用户名"
+                        placeholder="请输入用户名呀"
                         // prefix={<Icon type="user" style={{color:'rgba(0,0,0,.25)'}} />}
                         onChange={e=>{setUserName(e.target.value)}}
                     />
@@ -58,7 +58,7 @@ function Login(props){
                     <Input.Password
                         id="password"
                         size="large"
-                        placeholder="请输入密码"
+                        placeholder="请输入密码呀"
                         // prefix={<Icon type="key" style={{color:'rgba(0,0,0,.25)'}} />}
                         onChange={(e)=>{setPassword(e.target.value)}}
                     />
