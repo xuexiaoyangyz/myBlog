@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import Content from '../src/Content'
 import '../static/style/pages/index.css'
 
 const Home=()=>{
@@ -11,7 +12,7 @@ const Home=()=>{
         <title>Home</title>
       </Head>
       <Header />
-      <div>首页</div>
+      <Content/>
       <Footer />
     </>
   )

@@ -1,8 +1,8 @@
 .header{
-    background-color: #fff;
+    background-color: #ddd;
     padding: 0.4rem;
     overflow: hidden;
-    height: 2.8rem;
+    height: 2.4rem;
     border-bottom: 1px solid #ccc;
 }
 .header-logo{
@@ -17,5 +17,5 @@
     padding-left: .3rem;
 }
 .ant-menu-horizontal{
-    line-height: 2.6rem
+    line-height: 2rem
 }
